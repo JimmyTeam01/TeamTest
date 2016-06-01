@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DF5FE91BCF8A3D00A21D15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF5FE81BCF8A3D00A21D15 /* main.m */; };
+		04DF5FEC1BCF8A3D00A21D15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF5FEB1BCF8A3D00A21D15 /* AppDelegate.m */; };
+		04DF5FEF1BCF8A3D00A21D15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF5FEE1BCF8A3D00A21D15 /* ViewController.m */; };
+		04DF5FF21BCF8A3D00A21D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DF5FF01BCF8A3D00A21D15 /* Main.storyboard */; };
+		04DF5FF41BCF8A3D00A21D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF5FF31BCF8A3D00A21D15 /* Images.xcassets */; };
+		04DF5FF71BCF8A3D00A21D15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DF5FF51BCF8A3D00A21D15 /* LaunchScreen.xib */; };
+		04DF60031BCF8A3D00A21D15 /* PullWater3_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF60021BCF8A3D00A21D15 /* PullWater3_0Tests.m */; };
+		04DF600E1BCF8AFD00A21D15 /* UICollectionViewFlowWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF600D1BCF8AFD00A21D15 /* UICollectionViewFlowWaterLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DF5FFD1BCF8A3D00A21D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DF5FDB1BCF8A3D00A21D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DF5FE21BCF8A3D00A21D15;
+			remoteInfo = PullWater3.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DF5FE31BCF8A3D00A21D15 /* PullWater3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullWater3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DF5FE71BCF8A3D00A21D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DF5FE81BCF8A3D00A21D15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DF5FEA1BCF8A3D00A21D15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DF5FEB1BCF8A3D00A21D15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DF5FED1BCF8A3D00A21D15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04DF5FEE1BCF8A3D00A21D15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04DF5FF11BCF8A3D00A21D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DF5FF31BCF8A3D00A21D15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04DF5FF61BCF8A3D00A21D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04DF5FFC1BCF8A3D00A21D15 /* PullWater3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullWater3.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DF60011BCF8A3D00A21D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DF60021BCF8A3D00A21D15 /* PullWater3_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullWater3_0Tests.m; sourceTree = "<group>"; };
+		04DF600C1BCF8AFD00A21D15 /* UICollectionViewFlowWaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewFlowWaterLayout.h; sourceTree = "<group>"; };
+		04DF600D1BCF8AFD00A21D15 /* UICollectionViewFlowWaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewFlowWaterLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DF5FE01BCF8A3D00A21D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DF5FF91BCF8A3D00A21D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DF5FDA1BCF8A3D00A21D15 = {
+			isa = PBXGroup;
+			children = (
+				04DF5FE51BCF8A3D00A21D15 /* PullWater3.0 */,
+				04DF5FFF1BCF8A3D00A21D15 /* PullWater3.0Tests */,
+				04DF5FE41BCF8A3D00A21D15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DF5FE41BCF8A3D00A21D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DF5FE31BCF8A3D00A21D15 /* PullWater3.0.app */,
+				04DF5FFC1BCF8A3D00A21D15 /* PullWater3.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DF5FE51BCF8A3D00A21D15 /* PullWater3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				04DF5FEA1BCF8A3D00A21D15 /* AppDelegate.h */,
+				04DF5FEB1BCF8A3D00A21D15 /* AppDelegate.m */,
+				04DF5FED1BCF8A3D00A21D15 /* ViewController.h */,
+				04DF5FEE1BCF8A3D00A21D15 /* ViewController.m */,
+				04DF600C1BCF8AFD00A21D15 /* UICollectionViewFlowWaterLayout.h */,
+				04DF600D1BCF8AFD00A21D15 /* UICollectionViewFlowWaterLayout.m */,
+				04DF5FF01BCF8A3D00A21D15 /* Main.storyboard */,
+				04DF5FF31BCF8A3D00A21D15 /* Images.xcassets */,
+				04DF5FF51BCF8A3D00A21D15 /* LaunchScreen.xib */,
+				04DF5FE61BCF8A3D00A21D15 /* Supporting Files */,
+			);
+			path = PullWater3.0;
+			sourceTree = "<group>";
+		};
+		04DF5FE61BCF8A3D00A21D15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DF5FE71BCF8A3D00A21D15 /* Info.plist */,
+				04DF5FE81BCF8A3D00A21D15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DF5FFF1BCF8A3D00A21D15 /* PullWater3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04DF60021BCF8A3D00A21D15 /* PullWater3_0Tests.m */,
+				04DF60001BCF8A3D00A21D15 /* Supporting Files */,
+			);
+			path = PullWater3.0Tests;
+			sourceTree = "<group>";
+		};
+		04DF60001BCF8A3D00A21D15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DF60011BCF8A3D00A21D15 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DF5FE21BCF8A3D00A21D15 /* PullWater3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DF60061BCF8A3D00A21D15 /* Build configuration list for PBXNativeTarget "PullWater3.0" */;
+			buildPhases = (
+				04DF5FDF1BCF8A3D00A21D15 /* Sources */,
+				04DF5FE01BCF8A3D00A21D15 /* Frameworks */,
+				04DF5FE11BCF8A3D00A21D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullWater3.0;
+			productName = PullWater3.0;
+			productReference = 04DF5FE31BCF8A3D00A21D15 /* PullWater3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DF5FFB1BCF8A3D00A21D15 /* PullWater3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DF60091BCF8A3D00A21D15 /* Build configuration list for PBXNativeTarget "PullWater3.0Tests" */;
+			buildPhases = (
+				04DF5FF81BCF8A3D00A21D15 /* Sources */,
+				04DF5FF91BCF8A3D00A21D15 /* Frameworks */,
+				04DF5FFA1BCF8A3D00A21D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DF5FFE1BCF8A3D00A21D15 /* PBXTargetDependency */,
+			);
+			name = PullWater3.0Tests;
+			productName = PullWater3.0Tests;
+			productReference = 04DF5FFC1BCF8A3D00A21D15 /* PullWater3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DF5FDB1BCF8A3D00A21D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "罗炜翔";
+				TargetAttributes = {
+					04DF5FE21BCF8A3D00A21D15 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04DF5FFB1BCF8A3D00A21D15 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04DF5FE21BCF8A3D00A21D15;
+					};
+				};
+			};
+			buildConfigurationList = 04DF5FDE1BCF8A3D00A21D15 /* Build configuration list for PBXProject "PullWater3.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DF5FDA1BCF8A3D00A21D15;
+			productRefGroup = 04DF5FE41BCF8A3D00A21D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DF5FE21BCF8A3D00A21D15 /* PullWater3.0 */,
+				04DF5FFB1BCF8A3D00A21D15 /* PullWater3.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DF5FE11BCF8A3D00A21D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DF5FF21BCF8A3D00A21D15 /* Main.storyboard in Resources */,
+				04DF5FF71BCF8A3D00A21D15 /* LaunchScreen.xib in Resources */,
+				04DF5FF41BCF8A3D00A21D15 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DF5FFA1BCF8A3D00A21D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DF5FDF1BCF8A3D00A21D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DF5FEF1BCF8A3D00A21D15 /* ViewController.m in Sources */,
+				04DF5FEC1BCF8A3D00A21D15 /* AppDelegate.m in Sources */,
+				04DF600E1BCF8AFD00A21D15 /* UICollectionViewFlowWaterLayout.m in Sources */,
+				04DF5FE91BCF8A3D00A21D15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DF5FF81BCF8A3D00A21D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DF60031BCF8A3D00A21D15 /* PullWater3_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DF5FFE1BCF8A3D00A21D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DF5FE21BCF8A3D00A21D15 /* PullWater3.0 */;
+			targetProxy = 04DF5FFD1BCF8A3D00A21D15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DF5FF01BCF8A3D00A21D15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DF5FF11BCF8A3D00A21D15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DF5FF51BCF8A3D00A21D15 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DF5FF61BCF8A3D00A21D15 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DF60041BCF8A3D00A21D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DF60051BCF8A3D00A21D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DF60071BCF8A3D00A21D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PullWater3.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04DF60081BCF8A3D00A21D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PullWater3.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04DF600A1BCF8A3D00A21D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PullWater3.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PullWater3.0.app/PullWater3.0";
+			};
+			name = Debug;
+		};
+		04DF600B1BCF8A3D00A21D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PullWater3.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PullWater3.0.app/PullWater3.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DF5FDE1BCF8A3D00A21D15 /* Build configuration list for PBXProject "PullWater3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DF60041BCF8A3D00A21D15 /* Debug */,
+				04DF60051BCF8A3D00A21D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DF60061BCF8A3D00A21D15 /* Build configuration list for PBXNativeTarget "PullWater3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DF60071BCF8A3D00A21D15 /* Debug */,
+				04DF60081BCF8A3D00A21D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04DF60091BCF8A3D00A21D15 /* Build configuration list for PBXNativeTarget "PullWater3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DF600A1BCF8A3D00A21D15 /* Debug */,
+				04DF600B1BCF8A3D00A21D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DF5FDB1BCF8A3D00A21D15 /* Project object */;
+}
