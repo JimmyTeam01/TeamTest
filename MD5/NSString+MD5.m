@@ -11,6 +11,10 @@
 
 @implementation NSString (MD5)
 
+/*
+ 分支
+ 
+ */
 
 - (NSString *) MD5Hash {
 	
